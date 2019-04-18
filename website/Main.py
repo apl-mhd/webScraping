@@ -23,9 +23,13 @@ link = soup.findAll('a')
 
 #print(link)
 
+
+
+
+
 def writeTofile(con):
 
-    with open('links.html','a') as wr:
+    with open('links.html','a',encoding = 'utf-8') as wr:
 
         wr.write(con)
 
