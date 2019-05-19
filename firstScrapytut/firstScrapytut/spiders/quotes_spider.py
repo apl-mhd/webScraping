@@ -33,5 +33,5 @@ class QuoteSpider(scrapy.Spider):
            items['author'] = author
            items['tag'] = tag
 
-           yield  items
+           yield items
 
